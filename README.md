@@ -24,3 +24,5 @@ Tendo o módulo configurado, o próximo passo é configurar a API KEY da Intelip
 1. * No Admin do Magento vá em System -> Configuration
     * No menu ao lado esquerdo (Configuration) vá em **Intelipost - Orders Management->Intelipost Settings**
     * Configure sua API-Key
+    
+Com a API Key configurada o módulo irá enviar todos os pedidos criados à Intelipost.
