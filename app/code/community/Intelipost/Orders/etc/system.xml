@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <intelipost translate="label">
+            <label>Intelipost - Orders Management</label>
+            <sort_order>100</sort_order>
+        </intelipost>
+    </tabs>
+    <sections>
+        <apiconfig translate="label" module="adminhtml">
+            <label>Intelipost - Settings</label>
+            <tab>intelipost</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <apiconfig_group translate="label" module="adminhtml">
+                    <label>Api Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <appkey_input translate="label">
+                            <label>App Key: </label>
+                            <comment>Set your Intelipost APP KEY</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </appkey_input>
+                    </fields>
+                </apiconfig_group>
+            </groups>
+        </apiconfig>
+    </sections>
+</config>

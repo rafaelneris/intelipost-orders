@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Intelipost_Orders>
+            <version>0.1.0</version>
+        </Intelipost_Orders>
+    </modules>
+    <global>
+        <models>
+            <intelipost_orders>
+                <class>Intelipost_Orders_Model</class>
+            </intelipost_orders>
+        </models>
+        <helpers>
+            <intelipost_orders_helper>
+                <class>Intelipost_Orders_Helper</class>
+            </intelipost_orders_helper>
+        </helpers>
+        <events>
+            <sales_order_place_after>
+                <observers>
+                    <intelipost_orderslistener>
+                        <class>Intelipost_Orders_Model_Observer</class>
+                        <method>send</method>
+                    </intelipost_orderslistener>
+                </observers>
+            </sales_order_place_after>
+        </events>
+    </global>
+</config>

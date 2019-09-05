@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Intelipost_Orders>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Intelipost_Orders>
+    </modules>
+</config>
