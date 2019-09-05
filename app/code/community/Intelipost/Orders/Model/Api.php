@@ -21,6 +21,10 @@ class Intelipost_Orders_Model_Api
         /** @var Intelipost_Orders_Model_Config $config */
         $config = Mage::getModel('intelipost_orders/config');
 
+        if (empty($config->getApiKey())) {
+            return false;
+        }
+
         $endPoint = 'https://api.intelipost.com.br/api/v1/shipment_order';
         $client = new Varien_Http_Client($endPoint);
 
