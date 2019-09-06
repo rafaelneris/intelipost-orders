@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Intelipost_Orders</name>
+    <version>1.0.0</version>
+    <stability>devel</stability>
+    <license>Intelipost</license>
+    <channel>Shipping</channel>
+    <extends/>
+    <summary>Send orders to Intelipost when created.</summary>
+    <description>Send orders to Intelipost when created.</description>
+    <notes>Send orders to Intelipost when created.</notes>
+    <authors><author><name>Rafael</name><user>rafaelneris</user><email>rafaelnerisdj@gmail.com</email></author></authors>
+    <date>2019-09-06</date>
+    <time>02:33:58</time>
+    <contents><target name="mageetc"><dir><dir name="home"><dir name="rafael"><dir name="sanbox"><dir name="intelipost-orders"><dir name="app"><dir name="etc"><dir name="modules"><file name="Intelipost_Orders.xml" hash=""/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="magetest"><dir><dir name="home"><dir name="rafael"><dir name="sanbox"><dir name="intelipost-orders"><file name="tests" hash=""/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.5.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
