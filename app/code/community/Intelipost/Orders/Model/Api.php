@@ -20,8 +20,9 @@ class Intelipost_Orders_Model_Api
     {
         /** @var Intelipost_Orders_Model_Config $config */
         $config = Mage::getModel('intelipost_orders/config');
+        $apiKey = $config->getApiKey();
 
-        if (empty($config->getApiKey())) {
+        if (!isset($apiKey)) {
             return false;
         }
 
