@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class Intelipost_Orders_Model_ConfigTest
+ */
 class Intelipost_Orders_Model_ConfigTest extends PHPUnit_Framework_TestCase
 {
     public function testGetApiKey()
